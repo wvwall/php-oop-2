@@ -18,24 +18,20 @@ trait CreditCard {
     }
 
     //get e set 
-    public function getExpirationDate()
-    {
+    public function getExpirationDate() {
         return $this->expiration_number;
     }
 
-    public function setExpirationDate($expiration_date)
-    {
+    public function setExpirationDate($expiration_date) {
         $this->expiration_date = $expiration_date;
     }
 
     //get e set 
-    public function getCVC()
-    {
+    public function getCVC() {
         return $this->cvc;
     }
    
-    public function setCvc($cvc)
-    {
+    public function setCvc($cvc) {
         $this->cvc = $cvc;
     }
 

@@ -27,45 +27,40 @@
           $this->setCvc($cvc);
       }
 
-    //get e set 
-    public function getCompleteName() {
-        return $this->completeName;
-    }
-      
-    public function setCompleteName($completeName) {
-        $this->completeName = $completeName;
-    }
+        //get e set 
+        public function getCompleteName() {
+            return $this->completeName;
+        }
+        
+        public function setCompleteName($completeName) {
+            $this->completeName = $completeName;
+        }
 
-    //get e set 
-    public function getUsername() {
-        return $this->username;
-    }
-      
-    public function setUsername($username) {
-        $this->username = $username;
-    }
+        //get e set 
+        public function getUsername() {
+            return $this->username;
+        }
+        
+        public function setUsername($username) {
+            $this->username = $username;
+        }
 
-    //get e set 
-    public function getPassword() {
-        return $this->password;
-    }
-      
-    public function setPassword($password) {
-        $this->password = $password;
-    }
+        //get e set 
+        public function getPassword() {
+            return $this->password;
+        }
+        
+        public function setPassword($password) {
+            $this->password = $password;
+        }
 
-    //get e set 
-    public function getAccountStatus()
-    {
-        return $this->account_status;
-    }
+        //get e set 
+        public function getAccountStatus() {
+            return $this->account_status;
+        }
 
-    public function setAccountStatus($account_status)
-    {
-        $this->account_status = $account_status;
-    }
-
-    
-  
-    
+        public function setAccountStatus($account_status) {
+            $this->account_status = $account_status;
+        }
+ 
 }
